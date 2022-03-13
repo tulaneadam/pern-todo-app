@@ -1,0 +1,21 @@
+{
+  "name": "pern-todo-app",
+  "version": "1.0.0",
+  "description": "<img src=\"https://www.freecodecamp.org/news/content/images/size/w2000/2020/03/PERN.png\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "cd server && npm i && node index.js",
+    "start2": "cd client && npm i && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tulaneadam/pern-todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tulaneadam/pern-todo-app/issues"
+  },
+  "homepage": "https://github.com/tulaneadam/pern-todo-app#readme"
+}

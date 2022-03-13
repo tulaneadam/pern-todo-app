@@ -12,3 +12,7 @@ cd server && npm i && node index.js
 
 2. open 2nd/new terminal window and run:
 cd client && npm i && npm start
+
+OR
+
+npm-run-all start1 start2
