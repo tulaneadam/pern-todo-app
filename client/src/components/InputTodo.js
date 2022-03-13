@@ -5,6 +5,7 @@ const InputTodo = () => {
 
   const onSubmitForm = async e => {
     e.preventDefault();
+    console.log('submitButtonPressed');
     try {
       const body = { description };
       const response = await fetch("http://localhost:5000/todos", {
