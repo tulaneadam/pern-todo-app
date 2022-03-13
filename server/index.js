@@ -34,6 +34,7 @@ app.get("/todos", async (req, res) => {
     const allTodos = await pool.query("SELECT * FROM todo");
     res.json(allTodos.rows);
     console.log(allTodos);
+    console.log('getAllTodosFunctionExecuted')
   } catch (err) {
     console.error(err.message);
   }
