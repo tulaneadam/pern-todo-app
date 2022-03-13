@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -32,8 +33,9 @@ app.post("/todos", async (req, res) => {
 app.get("/todos", async (req, res) => {
   try {
     const allTodos = await pool.query("SELECT * FROM todo");
-    res.json(allTodos.rows);
+    // res.json(allTodos.rows);
     console.log(allTodos);
+    res.send("api working")
     console.log('getAllTodosFunctionExecuted')
   } catch (err) {
     console.error(err.message);
