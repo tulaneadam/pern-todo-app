@@ -17,7 +17,11 @@ const EditTodo = ({ todo }) => {
           body: JSON.stringify(body)
         }
       );
-
+      console.log('response');
+      console.log('body');
+      console.log(response);
+      console.log(body);
+      console.log(todo);
       window.location = "/";
     } catch (err) {
       console.error(err.message);

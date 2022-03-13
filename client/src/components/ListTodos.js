@@ -14,6 +14,10 @@ const ListTodos = () => {
       });
 
       setTodos(todos.filter(todo => todo.todo_id !== id));
+      console.log('deleteTodo');
+      console.log('todos');
+      console.log(deleteTodo);
+      console.log(todos);
     } catch (err) {
       console.error(err.message);
     }
