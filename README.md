@@ -15,4 +15,4 @@ cd client && npm i && npm start
 
 OR
 
-npm-run-all start1 start2
+npm-run-all -p start1 start2
